@@ -21,14 +21,13 @@ a {
 
 /* John Hasznosi */
 .headertext {
-	overflow: auto;
 	text-align: center;
 	
 }
 
 /* John Hasznosi */
 .headertext h1 {
-	font-size: 2rem; 
+	font-size: 4rem; 
 	font-family: "Charm", Times;
 	margin: 0;
 }
@@ -72,8 +71,25 @@ nav .container {
 }
 
 .skills {
-	padding: 15px 0;
+	padding: 5px 0;
 	width: 50%;
 	margin: 0 auto;
 	text-align: right;
+	overflow: auto;
+}
+
+.skills h2 {
+	background-color: #989898;
+	float: right;
+	clear: both;
+}
+
+.skills h3 {
+	background-color: #989898;
+	float: right;
+	clear: both;
+}
+
+footer {
+	padding: 0 0 15px 25px;
 }
