@@ -93,3 +93,8 @@ nav .container {
 footer {
 	padding: 0 0 15px 25px;
 }
+
+.projects img {
+	width: auto;
+	height: 100px;
+}
