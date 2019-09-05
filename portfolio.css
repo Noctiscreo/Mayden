@@ -1,3 +1,4 @@
+/* Boilerplate Start */
 * {
 	box-sizing: border-box;
 }
@@ -9,15 +10,70 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	font-size: 1.5rem;
+}
+/* Boilerplate End */
+
+/* Remove underline in links */
+a {
+	text-decoration: none;
 }
 
+/* John Hasznosi */
 .headertext {
 	overflow: auto;
 	text-align: center;
+	
 }
 
+/* John Hasznosi */
+.headertext h1 {
+	font-size: 2rem; 
+	font-family: "Charm", Times;
+	margin: 0;
+}
+
+/* logo */
 .headerimage {
-	margin: 0 auto;
-	width: 350px;
+	text-align: center;
 }
 
+/* logo size */
+.headerimage img {
+	width: 200px;
+}
+
+/* navbar padding */
+nav {
+	overflow: auto;
+	padding: 15px;
+}
+
+/* nav container*/
+nav .link {
+	width: 100%;
+	text-align: center;
+	overflow: auto;
+}
+
+nav .container {
+	width: 60%;
+	display: flex;
+	margin: auto;
+}
+
+.projects {
+	text-align: center;
+}
+
+.imagebanner {
+	background-image: url("laptop.jpg");
+	background-size: cover;
+}
+
+.skills {
+	padding: 15px 0;
+	width: 50%;
+	margin: 0 auto;
+	text-align: right;
+}
