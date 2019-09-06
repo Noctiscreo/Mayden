@@ -15,8 +15,15 @@ body {
 /* Boilerplate End */
 
 /* Remove underline in links */
+
 a {
 	text-decoration: none;
+	color: #000000;
+}
+
+/* Menu text changes colour on hover*/
+a:hover {
+	color: gray;
 }
 
 /* John Hasznosi */
@@ -61,17 +68,13 @@ nav .container {
 	margin: auto;
 }
 
-.projects {
-	text-align: center;
-}
-
 .imagebanner {
 	background-image: url("laptop.jpg");
 	background-size: cover;
 }
 
 .skills {
-	padding: 5px 0;
+
 	width: 50%;
 	margin: 0 auto;
 	text-align: right;
@@ -91,10 +94,62 @@ nav .container {
 }
 
 footer {
-	padding: 0 0 15px 25px;
+	text-align: center;
+	padding: 10px 0 15px 0;
+}
+
+/* Projects */
+.projects {
+	text-align: center;
 }
 
 .projects img {
 	width: auto;
 	height: 100px;
+}
+
+.projects h3 {
+	padding: 20px 0 0 0;
+}
+
+/* About Me page */
+
+.aboutme {
+	margin: auto;
+	width: 50%;
+	padding: 5px;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+/* Email and Phone */
+
+.contactme {
+	margin: 0 auto;
+	width: 50%;
+	padding: 0px;
+}
+
+/* Contact Buttons Container */
+
+.contact-container {
+	overflow: auto;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Contact buttons centered */
+
+.contact-icon {
+	display: inline-block;
+}
+
+/* Contact Buttons Size */
+
+.contact-icon img {
+	height: 40px;
+	width: auto;
 }
