@@ -82,6 +82,7 @@ nav .container {
 	overflow: auto;
 }
 
+/* Adds brushstroke highlights behind text */
 .brushstroke {
 	background: url("brushstroke.png");
 	background-repeat: no-repeat;
@@ -91,12 +92,14 @@ nav .container {
 
 .skills h2 {
 	color: #dff0c2;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	float: right;
 	clear: both;
 }
 
 .skills h3 {
 	color: #ebede8;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	float: right;
 	clear: both;
 }
