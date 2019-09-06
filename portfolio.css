@@ -73,6 +73,7 @@ nav .container {
 	background-size: cover;
 }
 
+/* Skills List */
 .skills {
 
 	width: 50%;
@@ -81,17 +82,28 @@ nav .container {
 	overflow: auto;
 }
 
+.brushstroke {
+	background: url("brushstroke.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 10px 0 10px 0;
+}
+
 .skills h2 {
-	background-color: #989898;
+	color: #dff0c2;
 	float: right;
 	clear: both;
 }
 
 .skills h3 {
-	background-color: #989898;
+	color: #ebede8;
 	float: right;
 	clear: both;
 }
+
+
+
+/* Footer */
 
 footer {
 	text-align: center;
@@ -105,7 +117,7 @@ footer {
 
 .projects img {
 	width: auto;
-	height: 100px;
+	height: 70px;
 }
 
 .projects h3 {
@@ -153,3 +165,4 @@ h2 {
 	height: 40px;
 	width: auto;
 }
+
