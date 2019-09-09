@@ -57,15 +57,16 @@ nav {
 
 /* nav container*/
 nav .link {
-	width: 100%;
 	text-align: center;
 	overflow: auto;
 }
 
+/* Spaces out links evenly */
 nav .container {
 	width: 60%;
 	display: flex;
 	margin: auto;
+	justify-content: space-around;
 }
 
 .imagebanner {
@@ -144,7 +145,7 @@ h2 {
 .contactme {
 	margin: 0 auto;
 	width: 50%;
-	padding: 0px;
+	padding: 30px;
 }
 
 /* Contact Buttons Container */
