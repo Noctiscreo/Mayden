@@ -57,15 +57,16 @@ nav {
 
 /* nav container*/
 nav .link {
-	width: 100%;
 	text-align: center;
 	overflow: auto;
 }
 
+/* Spaces out links evenly */
 nav .container {
 	width: 60%;
 	display: flex;
 	margin: auto;
+	justify-content: space-around;
 }
 
 .imagebanner {
@@ -82,6 +83,7 @@ nav .container {
 	overflow: auto;
 }
 
+/* Adds brushstroke highlights behind text */
 .brushstroke {
 	background: url("brushstroke.png");
 	background-repeat: no-repeat;
@@ -91,12 +93,14 @@ nav .container {
 
 .skills h2 {
 	color: #dff0c2;
+	text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
 	float: right;
 	clear: both;
 }
 
 .skills h3 {
 	color: #ebede8;
+	text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
 	float: right;
 	clear: both;
 }
@@ -141,7 +145,7 @@ h2 {
 .contactme {
 	margin: 0 auto;
 	width: 50%;
-	padding: 0px;
+	padding: 30px;
 }
 
 /* Contact Buttons Container */
