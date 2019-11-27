@@ -19,10 +19,14 @@ body {
 a {
 	text-decoration: none;
 	color: #000000;
+	font-size: 2rem;
+	font-family: Times;
 }
 
-/* Menu text changes colour on hover*/
+/* Menu text changes colour on hover */
+/* Remove underline on hover */
 a:hover {
+	text-decoration: none;
 	color: gray;
 }
 
@@ -33,8 +37,8 @@ a:hover {
 
 /* John Hasznosi */
 .headertext h1 {
-	font-size: 4rem; 
-	font-family: "Charm", Times;
+	font-size: 4rem;
+	font-family: "Charm", serif;
 	margin: 5px;
 }
 
@@ -56,7 +60,8 @@ nav {
 }
 
 p {
-	font-size: 2rem;
+	font-size: 1.75rem;
+	font-family: Times;
 }
 
 /* nav container*/
@@ -76,23 +81,23 @@ nav .container {
 	justify-content: space-around;
 }
 
-.imagebanner {
-	background-image: url("laptop.jpg");
+#imageBanner {
+	background-image: url("resources/laptop.jpg");
 	background-size: cover;
 }
 
 /* Skills List */
 .skills {
-
-	width: 50%;
+	width: 80%;
 	margin: 0 auto;
 	text-align: right;
 	overflow: auto;
+	margin: 20px 100px 60px 0px;
 }
 
 /* Adds brushstroke highlights behind text */
 .brushstroke {
-	background: url("brushstroke.png");
+	background: url("resources/brushstroke.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	padding: 10px 0 10px 0;
@@ -104,6 +109,7 @@ nav .container {
 	float: right;
 	clear: both;
 	font-size: 2.5rem;
+	margin: 10px;
 }
 
 .skills h3 {
@@ -112,12 +118,14 @@ nav .container {
 	float: right;
 	clear: both;
 	font-size: 2rem;
+	margin: 10px 10px 20px 0px;
 }
 
 footer {
 	text-align: center;
 	padding: 30px 0 15px 0;
 	font-size: 1.75rem;
+	font-family: Times;
 }
 
 /* Projects */
@@ -127,7 +135,7 @@ footer {
 
 .projects img {
 	width: auto;
-	height: 90px;
+	height: 80px;
 }
 
 .projects h3 {
@@ -135,6 +143,10 @@ footer {
 }
 
 /* About Me page */
+
+.projects-header {
+	text-align: center;
+}
 
 .aboutme {
 	margin: auto;
@@ -176,3 +188,13 @@ h2 {
 	width: auto;
 }
 
+#carouselExampleIndicators {
+	margin: auto;
+	padding-top: 20px;
+	width: 50%;
+}
+
+.carousel-caption p {
+	background: rgba(0, 0, 0, 1);
+	/*text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;*/
+}
