@@ -1,0 +1,200 @@
+/* Boilerplate Start */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 1.5rem;
+}
+/* Boilerplate End */
+
+/* Remove underline in links */
+
+a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 2rem;
+	font-family: Times;
+}
+
+/* Menu text changes colour on hover */
+/* Remove underline on hover */
+a:hover {
+	text-decoration: none;
+	color: gray;
+}
+
+/* John Hasznosi */
+.headertext {
+	text-align: center;
+}
+
+/* John Hasznosi */
+.headertext h1 {
+	font-size: 4rem;
+	font-family: "Charm", serif;
+	margin: 5px;
+}
+
+/* logo */
+.headerimage {
+	text-align: center;
+}
+
+/* logo size */
+.headerimage img {
+	width: 200px;
+}
+
+/* navbar padding */
+nav {
+	overflow: auto;
+	padding: 15px;
+	font-size: 2.5rem;
+}
+
+p {
+	font-size: 1.75rem;
+	font-family: Times;
+}
+
+/* nav container*/
+nav .link {
+	text-align: center;
+	overflow: auto;
+}
+
+/* Spaces out links evenly */
+nav .container {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    -ms-flex-pack: distribute;
+	justify-content: space-around;
+}
+
+#imageBanner {
+	background-image: url("resources/laptop.jpg");
+	background-size: cover;
+}
+
+/* Skills List */
+.skills {
+	width: 80%;
+	margin: 0 auto;
+	text-align: right;
+	overflow: auto;
+	margin: 20px 100px 60px 0px;
+}
+
+/* Adds brushstroke highlights behind text */
+.brushstroke {
+	background: url("resources/brushstroke.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 10px 0 10px 0;
+}
+
+.skills h2 {
+	color: #dff0c2;
+	text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+	float: right;
+	clear: both;
+	font-size: 2.5rem;
+	margin: 10px;
+}
+
+.skills h3 {
+	color: #ebede8;
+	text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+	float: right;
+	clear: both;
+	font-size: 2rem;
+	margin: 10px 10px 20px 0px;
+}
+
+footer {
+	text-align: center;
+	padding: 30px 0 15px 0;
+	font-size: 1.75rem;
+	font-family: Times;
+}
+
+/* Projects */
+.projects {
+	text-align: center;
+}
+
+.projects img {
+	width: auto;
+	height: 80px;
+}
+
+.projects h3 {
+	padding: 20px 0 0 0;
+}
+
+/* About Me page */
+
+.projects-header {
+	text-align: center;
+}
+
+.aboutme {
+	margin: auto;
+	width: 50%;
+	padding: 5px;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+/* Email and Phone */
+
+.contactme {
+	margin: 0 auto;
+	width: 50%;
+	padding: 30px;
+}
+
+/* Contact Buttons Container */
+
+.contact-container {
+	overflow: auto;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Contact buttons centered */
+
+.contact-icon {
+	display: inline-block;
+}
+
+/* Contact Buttons Size */
+
+.contact-icon img {
+	height: 50px;
+	width: auto;
+}
+
+#carouselExampleIndicators {
+	margin: auto;
+	padding-top: 20px;
+	width: 50%;
+}
+
+.carousel-caption p {
+	background: rgba(0, 0, 0, 1);
+	/*text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;*/
+}
